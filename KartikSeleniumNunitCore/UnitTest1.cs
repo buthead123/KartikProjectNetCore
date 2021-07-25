@@ -18,7 +18,7 @@ namespace KartikSeleniumNunitCore
 
             /*ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.*/
-            Driver = new ChromeDriver(@"c:/_drivers/");
+            Driver = new ChromeDriver(@"../../../resources/");
             Driver.Navigate().GoToUrl("https://lov-myride.com");
         }
 
